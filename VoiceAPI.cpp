@@ -14,7 +14,7 @@ std::string VoiceAPI::callAPI(std::string &filePath)
     std::string readBuffer = "";
     std::string url = "https://api.replicate.com/v1/deployments/mdyude/whisper-3307/predictions";
     std::string postFields = "{\"input\": {\"audio\": \"" + filePath + "\"}}";
-    std::string token = "r8_X1ErZq5FO5J4XZc00HphUvYTWLr3zdP1utzio";
+    std::string token = "{{replace with your own token}}";
     // std::string headers = "Authorization: Token " + token;
     struct curl_slist *headers = NULL;
     headers = curl_slist_append(headers, ("Authorization: Token " + token).c_str());

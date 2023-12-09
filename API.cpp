@@ -41,12 +41,12 @@ API::API()
 {
     OpenAI = {
         "OpenAI",
-        "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",
+        "{{API_KEY}}}}",
         "https://api.openai.com/v1/chat/completions"};
 
     OpenAI_Vision = {
         "OpenAI",
-        "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",
+        "{{API_KEY}}}}",
         "https://api.openai.com/v1/chat/completions"};
     GoogleTrends = {
         "GoogleTrends",
